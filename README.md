@@ -17,8 +17,8 @@ Analyzing the earlier period vs later period, we find that there appear to be mo
 earlier period as compared to the later period. This is true in any arbitrage situation. Once people figure out the 
 potential to profit from price difference, the gap closes very quickly. 
 
-![Bitstamp vs Coinbase Earlier Period](images/bitstamp_vs_coinbase_earlier_period.png)
-![Bitstamp vs Coinbase Later Period](images/bitstamp_vs_coinbase_later_period.png)
+![Bitstamp vs Coinbase Earlier Period](images/bitstamp_vs_coinbase_earlier_time_period.png)
+![Bitstamp vs Coinbase Later Period](images/bitstamp_vs_coinbase_later_time_period.png)
 
 Analyzing specific dates in the early, middle and later periods show that there are more opportunities in the early part
 of the day and even later part of the day (when the Asia market is starting to get active). During the working hours,
@@ -33,16 +33,20 @@ Analyzing the profit opportunities, it confirms that profits can be made in the 
 During the earlier period, profit can be made in the early part of the day before the working hours and after working hours.
 
 * Jan 16, 2018 - total arbitrage profits
+
 ![Cumulative Profit Jan 16, 2018](images/cumulative_profit_sum_1_16_2018.png)
 
 * NOTE: We analyze both possibilities - bitstamp to coinbase and coinbase to bitstamp because during the day both possibilities can exist. Bitcoin can be trading lower at Coinbase at certain times and trading lower at Bitstamp at other times.
 
 * Jan 16, 2018 - arbitrage profits from buying low at bitstamp and selling high at coinbase
+
 ![Cumulative Profit Jan 16, 2018 - bitstamp to coinbase](images/cumulative_profit_sum_1_16_2018_bitstamp_to_coinbase.png) 
 * Jan 16, 2018 - arbitrage profits from buying low at coinbase and selling high at bitstamp 
+
 ![Cumulative Profit Jan 16, 2018 - coinbase to bitstamp](images/cumulative_profit_sum_1_16_2018_coinbase_to_bitstamp.png)
 
 * Feb 24, 2018
+
 ![Cumulative Profit Feb 24, 2018](images/cumulative_profit_sum_2_24_2018.png)
 
 ---
@@ -74,7 +78,7 @@ In case of issues, please see the requirements.txt for a complete list of packag
 
 ## Usage
 
-To use the crypto arbitrage analysis, please download and open the **crypto_arbitrage.ipynb** in juypter lab after executing
+To use the crypto arbitrage analysis, please download and open the **crypto_arbitrage.ipynb** in jupyter lab after executing
 the following on the command line:
 
 ```python
