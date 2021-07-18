@@ -1,5 +1,5 @@
 # Project Title
-Analyze Bitcoin/Cryptocurrency Arbitrage opportunities.
+Analyzing Bitcoin/Cryptocurrency Arbitrage opportunities.
 
 Bitcoin/Cryptocurrency arbitrage opportunity occurs when Bitcoin/Cryptocurrency is available at a cheaper price at 
 one exchange compared to another exchange. So, we can take advantage of this opportunity by purchasing the cryptocurrency
@@ -17,7 +17,7 @@ from the Coinbase - bitstamp line shows prominently and is not hidden by the coi
 ### Earlier vs Later Period
 Analyzing the earlier period vs later period, we find that there appear to be more arbitrage opportunities in the 
 earlier period as compared to the later period. This is true in any arbitrage situation. Once people figure out the 
-potential to profit from price difference, the gap closes very quickly. 
+potential to profit from the price difference, the gap closes very quickly. 
 
 ![Bitstamp vs Coinbase Earlier Period](images/bitstamp_vs_coinbase_earlier_time_period.png)
 ![Bitstamp vs Coinbase Later Period](images/bitstamp_vs_coinbase_later_time_period.png)
@@ -35,7 +35,7 @@ diminish in the later period as more people discover price discrepencies.
 ### Profit
 Analyzing the profit opportunities confirms that profits can be made in the earlier period but there is no profit to be made in the later period. During the earlier period, profit can be made in the early part of the day before the working hours and after working hours when Asia is getting active.
 
-* Jan 16, 2018 - total arbitrage profits - profits in the early hours and then during working hours the arbitrage gap is closed and the gap widens again when people get off work and Asia gets active.
+* Jan 16, 2018 - total arbitrage profits - potential for profit exists in the early hours and then during working hours the arbitrage gap is closed and the gap widens again when people get off work and Asia gets active.
 
 ![Cumulative Profit Jan 16, 2018](images/cumulative_profit_sum_1_16_2018.png)
 
