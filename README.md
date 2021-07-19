@@ -35,6 +35,10 @@ diminish in the later period as more people discover price discrepencies.
 ### Profit
 Analyzing the profit opportunities confirms that profits can be made in the earlier period but there is no profit to be made in the later period. During the earlier period, profit can be made in the early part of the day before the working hours and after working hours when Asia is getting active.
 
+* Profit Summary Table
+
+![Profit Summary Table](images/profit_summary_table.png)
+
 * Jan 16, 2018 - total arbitrage profits - potential for profit exists in the early hours and then during working hours the arbitrage gap is closed and the gap widens again when people get off work and Asia gets active.
 
 ![Cumulative Profit Jan 16, 2018](images/cumulative_profit_sum_1_16_2018.png)
