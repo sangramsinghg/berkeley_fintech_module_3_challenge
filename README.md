@@ -1,5 +1,4 @@
-# Project Title
-Analyzing Bitcoin/Cryptocurrency Arbitrage opportunities.
+# Analyzing Bitcoin/Cryptocurrency Arbitrage opportunities.
 
 Bitcoin/Cryptocurrency arbitrage opportunity occurs when Bitcoin/Cryptocurrency is available at a cheaper price at 
 one exchange compared to another exchange. So, we can take advantage of this opportunity by purchasing the cryptocurrency
@@ -9,8 +8,10 @@ or purchased at a cheaper price on coinbase and sold at bitstamp. We analyse all
 profit in doing so. 
 
 ### Overall Analysis
-Looking at the entire period, it appears that there are potential arbitrage oppotunities when we see the Bitstamp deviate
+Looking at the entire period, it appears that there were potential arbitrage oppotunities when we see the Bitstamp deviate
 from the Coinbase - bitstamp line shows prominently and is not hidden by the coinbase line.
+
+The overall trend is that arbitrage profits dry up as more and more people discover the price dislocation/discrepancy. It appears that overall potential for arbitrage has dried up as people have discovered the price dislocation/discrepancy and we don't forsee future profitability in this trade.
 
 ![Bitstamp vs Coinbase Entire Period](images/bitstamp_vs_coinbase_entire_period.png)
 
@@ -26,7 +27,7 @@ potential to profit from the price difference, the gap closes very quickly.
 Analyzing specific dates in the early, middle and later periods show that there are more opportunities in the early part
 of the day and even later part of the day (when the Asia market is starting to get active). During the working hours,
 major arbitrage opportunities are non existent. The specific date analysis also confirms that the arbitrage opportunities
-diminish in the later period as more people discover price discrepencies. 
+diminish in the later period as more people discover price dislocation/discrepencies. 
 
 ![Bitstamp vs Coinbase Jan 16, 2018](images/bitstamp_vs_coinbase_jan_16_2018.png)
 ![Bitstamp vs Coinbase Feb 24, 2018](images/bitstamp_vs_coinbase_feb_24_2018.png)
@@ -58,6 +59,10 @@ Analyzing the profit opportunities confirms that profits can be made in the earl
 ![Cumulative Profit Feb 24, 2018](images/cumulative_profit_sum_2_24_2018.png)
 
 * NOTE: There are no profits to be made on Mar 26, 2018.
+
+### Assumptions and Discovery
+We are assuming that anytime a price is low on an exchange and high on another exchange, we can buy at the low exchange and sell at the higher exchange without any issues. Also, we can trade from bitstamp to coinbase and coinbase to bitstamp at different times of the same day as long as the trade is profitable. On Jan 16th, 2018, we discover that our profits increase if we include both kinds of trades (but at bitstamp and sell at coinbase and buy at coinbase and sell at bitstamp) instead of just keeping most profitable one directional trade (buy at bitstamp and sell at coinbase). On Feb 24, 2018, we only see profitable trades when we buy at bitstamp and sell at coinbase. On March 26, 2018, we don't see any profits. This confirms the overall trend that arbitrage profits dry up as more and more people discover the price dislocation/discrepancy. During any given day we also discover there are possibilities of arbitrage early in the day and they dry up as people discover the price dislocation/discrepancy. It appears that over potential for arbitrage has dried up as people have discovered the price dislocation/discrepancy and we don't forsee future profitability in this trade.
+
 ---
 
 ## Technologies
